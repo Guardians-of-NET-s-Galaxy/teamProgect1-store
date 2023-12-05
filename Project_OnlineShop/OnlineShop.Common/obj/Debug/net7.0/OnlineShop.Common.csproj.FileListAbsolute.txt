@@ -1,0 +1,14 @@
+C:\Users\sharifi\ASP.NET\teamProject1-store\teamProgect1-store\Project_OnlineShop\OnlineShop.Common\bin\Debug\net7.0\OnlineShop.Common.deps.json
+C:\Users\sharifi\ASP.NET\teamProject1-store\teamProgect1-store\Project_OnlineShop\OnlineShop.Common\bin\Debug\net7.0\OnlineShop.Common.runtimeconfig.json
+C:\Users\sharifi\ASP.NET\teamProject1-store\teamProgect1-store\Project_OnlineShop\OnlineShop.Common\bin\Debug\net7.0\OnlineShop.Common.dll
+C:\Users\sharifi\ASP.NET\teamProject1-store\teamProgect1-store\Project_OnlineShop\OnlineShop.Common\bin\Debug\net7.0\OnlineShop.Common.pdb
+C:\Users\sharifi\ASP.NET\teamProject1-store\teamProgect1-store\Project_OnlineShop\OnlineShop.Common\obj\Debug\net7.0\OnlineShop.Common.csproj.AssemblyReference.cache
+C:\Users\sharifi\ASP.NET\teamProject1-store\teamProgect1-store\Project_OnlineShop\OnlineShop.Common\obj\Debug\net7.0\OnlineShop.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sharifi\ASP.NET\teamProject1-store\teamProgect1-store\Project_OnlineShop\OnlineShop.Common\obj\Debug\net7.0\OnlineShop.Common.AssemblyInfoInputs.cache
+C:\Users\sharifi\ASP.NET\teamProject1-store\teamProgect1-store\Project_OnlineShop\OnlineShop.Common\obj\Debug\net7.0\OnlineShop.Common.AssemblyInfo.cs
+C:\Users\sharifi\ASP.NET\teamProject1-store\teamProgect1-store\Project_OnlineShop\OnlineShop.Common\obj\Debug\net7.0\OnlineShop.Common.csproj.CoreCompileInputs.cache
+C:\Users\sharifi\ASP.NET\teamProject1-store\teamProgect1-store\Project_OnlineShop\OnlineShop.Common\obj\Debug\net7.0\OnlineShop.Common.dll
+C:\Users\sharifi\ASP.NET\teamProject1-store\teamProgect1-store\Project_OnlineShop\OnlineShop.Common\obj\Debug\net7.0\refint\OnlineShop.Common.dll
+C:\Users\sharifi\ASP.NET\teamProject1-store\teamProgect1-store\Project_OnlineShop\OnlineShop.Common\obj\Debug\net7.0\OnlineShop.Common.pdb
+C:\Users\sharifi\ASP.NET\teamProject1-store\teamProgect1-store\Project_OnlineShop\OnlineShop.Common\obj\Debug\net7.0\OnlineShop.Common.genruntimeconfig.cache
+C:\Users\sharifi\ASP.NET\teamProject1-store\teamProgect1-store\Project_OnlineShop\OnlineShop.Common\obj\Debug\net7.0\ref\OnlineShop.Common.dll

@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using OnlineShop.Persistence.AppDbContext;
+
 namespace Project_OnlineShop
 {
     public class Program
@@ -8,6 +11,8 @@ namespace Project_OnlineShop
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddDbContext<ShopDbContext>(options => options.UseSqlServer(
+                @"Data source=DESKTOP-73VTHTD;Initial Catalog=ShopProject;Integrated Security=True;MultipleActiveResultSets=True;TrustServerCertificate=True;"));
 
             var app = builder.Build();
 

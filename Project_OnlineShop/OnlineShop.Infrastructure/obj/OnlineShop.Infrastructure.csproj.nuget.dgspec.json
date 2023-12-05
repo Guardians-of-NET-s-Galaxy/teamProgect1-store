@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mardin it\\Desktop\\practice-algoritm\\Project_OnlineShop\\OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj": {}
+    "C:\\Users\\sharifi\\ASP.NET\\teamProject1-store\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mardin it\\Desktop\\practice-algoritm\\Project_OnlineShop\\OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj": {
+    "C:\\Users\\sharifi\\ASP.NET\\teamProject1-store\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mardin it\\Desktop\\practice-algoritm\\Project_OnlineShop\\OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\sharifi\\ASP.NET\\teamProject1-store\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj",
         "projectName": "OnlineShop.Infrastructure",
-        "projectPath": "C:\\Users\\mardin it\\Desktop\\practice-algoritm\\Project_OnlineShop\\OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\mardin it\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mardin it\\Desktop\\practice-algoritm\\Project_OnlineShop\\OnlineShop.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\sharifi\\ASP.NET\\teamProject1-store\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\sharifi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sharifi\\ASP.NET\\teamProject1-store\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mardin it\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sharifi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,6 +44,28 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }
