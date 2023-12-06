@@ -11,8 +11,11 @@ namespace Project_OnlineShop
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-            builder.Services.AddDbContext<ShopDbContext>(options => options.UseSqlServer(
-                @"Data source=DESKTOP-73VTHTD;Initial Catalog=ShopProject;Integrated Security=True;MultipleActiveResultSets=True;TrustServerCertificate=True;"));
+            //builder.Services.AddDbContext<ShopDbContext>(options => options.UseSqlServer(
+            //    @"Data source=DESKTOP-73VTHTD;Initial Catalog=ShopProject;Integrated Security=True;MultipleActiveResultSets=True;TrustServerCertificate=True;"));
+
+            builder.Services.AddDbContext<ShopDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("ShopDbContext")));
+
 
             var app = builder.Build();
 
