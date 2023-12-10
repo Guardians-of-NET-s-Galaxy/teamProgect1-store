@@ -1,4 +1,7 @@
 ﻿using OnlineShop.Application.Services.Interfaces;
+using OnlineShop.Application.Utilities;
+using OnlineShop.Domain.DTOs.SiteSide.Account;
+using OnlineShop.Domain.Entities.Users;
 using OnlineShop.Domain.IRepositories;
 using System;
 using System.Collections.Generic;
@@ -15,6 +18,46 @@ namespace OnlineShop.Application.Services.Implementations
         {
             _userRepository = userRepository;
         }
+
+        public bool ExistUserByMobile(string mobile)
+        {
+            return _userRepository.ExistUserByMobile(mobile.Trim());
+        }
+        
+        public User UserRegisterDTOToUserEntity(UserRegisterDTO userRegisterDTO)
+        {
+            User user = new User()
+            {
+                Mobile = userRegisterDTO.Mobile.Trim(),
+                Password = PasswordHelper.EncodePasswordMd5(userRegisterDTO.Password),
+                //UserName = userRegisterDTO.UserName
+            };
+
+            return user;
+        }
+
+
+        public void AddUser(User user)
+        {
+            _userRepository.AddUser(user);
+        }
+
+        public bool RegisterUser(UserRegisterDTO userRegisterDTO)
+        {
+            // user existes?
+            if (ExistUserByMobile(userRegisterDTO.Mobile))
+            {
+                return false;
+            }
+
+                // map
+                var user = UserRegisterDTOToUserEntity(userRegisterDTO);
+
+                // add user to database
+                AddUser(user);
+                return true;
+        }
+
 
     }
 }

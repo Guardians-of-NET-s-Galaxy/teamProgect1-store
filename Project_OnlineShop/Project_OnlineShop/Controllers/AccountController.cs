@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using OnlineShop.Application.Services.Interfaces;
 using OnlineShop.Domain.DTOs.SiteSide.Account;
+using OnlineShop.Domain.Entities.Users;
 
 namespace Project_OnlineShop.Controllers
 {
@@ -10,10 +11,10 @@ namespace Project_OnlineShop.Controllers
 
         #region ctor
 
-        private readonly IUserService
-        public AccountController()
+        private readonly IUserService _userService;
+        public AccountController(IUserService userService)
         {
-            
+            _userService = userService;
         }
         #endregion
         public IActionResult Index()
@@ -33,21 +34,13 @@ namespace Project_OnlineShop.Controllers
         {
             if(ModelState.IsValid)
             {
-                if(_context.Users.Any(p => p.Mobile==userRegisterDTO.Mobile.Trim() == false)
+                var result = _userService.RegisterUser(userRegisterDTO);
+                if (result)
                 {
-                    User user = new User()
-                    {
-                        Mobile = userRegisterDTO.Mobile.Trim(),
-                        Password = PasswordHelper.EncodePasswordMd5(userRegisterDTO.Password),
-                        Username = userRegisterDTO.UserName
-                    };
-
-                    _context.Users.Add(user);
-                    _context.SaveChanges();
-
                     return RedirectToAction("Index", "Home");
                 }
             }
+            TempData["ErrorMessage"] = "کاربری با این شماره در سیستم ثبت شده است. لطفا وارد شوید";
             return View();
         }
 

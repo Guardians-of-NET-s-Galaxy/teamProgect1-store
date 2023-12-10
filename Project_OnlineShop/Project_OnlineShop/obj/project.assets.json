@@ -1161,6 +1161,21 @@
         "runtime": {
           "bin/placeholder/OnlineShop.Domain.dll": {}
         }
+      },
+      "OnlineShop.Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
+          "OnlineShop.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OnlineShop.Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnlineShop.Persistence.dll": {}
+        }
       }
     }
   },
@@ -3491,6 +3506,11 @@
       "type": "project",
       "path": "../OnlineShop.Domain/OnlineShop.Domain.csproj",
       "msbuildProject": "../OnlineShop.Domain/OnlineShop.Domain.csproj"
+    },
+    "OnlineShop.Persistence/1.0.0": {
+      "type": "project",
+      "path": "../OnlineShop.Persistence/OnlineShop.Persistence.csproj",
+      "msbuildProject": "../OnlineShop.Persistence/OnlineShop.Persistence.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3500,7 +3520,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.0",
       "OnlineShop.Application >= 1.0.0",
-      "OnlineShop.Domain >= 1.0.0"
+      "OnlineShop.Domain >= 1.0.0",
+      "OnlineShop.Persistence >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3542,6 +3563,9 @@
             },
             "C:\\Users\\sharifi\\ASP.NET\\teamProject1-store\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj": {
               "projectPath": "C:\\Users\\sharifi\\ASP.NET\\teamProject1-store\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj"
+            },
+            "C:\\Users\\sharifi\\ASP.NET\\teamProject1-store\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Persistence\\OnlineShop.Persistence.csproj": {
+              "projectPath": "C:\\Users\\sharifi\\ASP.NET\\teamProject1-store\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Persistence\\OnlineShop.Persistence.csproj"
             }
           }
         }

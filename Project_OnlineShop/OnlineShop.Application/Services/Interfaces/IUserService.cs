@@ -1,4 +1,6 @@
-﻿using System;
+﻿using OnlineShop.Domain.DTOs.SiteSide.Account;
+using OnlineShop.Domain.Entities.Users;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +10,11 @@ namespace OnlineShop.Application.Services.Interfaces
 {
     public interface IUserService
     {
+        bool ExistUserByMobile(string mobile);
+        User UserRegisterDTOToUserEntity(UserRegisterDTO userRegisterDTO);
+
+        void AddUser(User user);
+
+        bool RegisterUser(UserRegisterDTO userRegisterDTO);
     }
 }

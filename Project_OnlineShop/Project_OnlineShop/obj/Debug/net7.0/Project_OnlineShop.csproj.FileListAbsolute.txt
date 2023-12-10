@@ -77,3 +77,5 @@ C:\Users\sharifi\ASP.NET\teamProject1-store\teamProgect1-store\Project_OnlineSho
 C:\Users\sharifi\ASP.NET\teamProject1-store\teamProgect1-store\Project_OnlineShop\Project_OnlineShop\bin\Debug\net7.0\OnlineShop.Persistence.pdb
 C:\Users\sharifi\ASP.NET\teamProject1-store\teamProgect1-store\Project_OnlineShop\Project_OnlineShop\bin\Debug\net7.0\OnlineShop.Domain.pdb
 C:\Users\sharifi\ASP.NET\teamProject1-store\teamProgect1-store\Project_OnlineShop\Project_OnlineShop\obj\Debug\net7.0\Project_OnlineShop.csproj.CopyComplete
+C:\Users\sharifi\ASP.NET\teamProject1-store\teamProgect1-store\Project_OnlineShop\Project_OnlineShop\bin\Debug\net7.0\OnlineShop.Application.dll
+C:\Users\sharifi\ASP.NET\teamProject1-store\teamProgect1-store\Project_OnlineShop\Project_OnlineShop\bin\Debug\net7.0\OnlineShop.Application.pdb

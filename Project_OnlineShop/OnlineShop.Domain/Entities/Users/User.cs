@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bugeto_Store.Domain.Entities.Users
+namespace OnlineShop.Domain.Entities.Users
 {
     public class User
     {
