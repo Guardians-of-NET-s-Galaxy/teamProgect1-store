@@ -12,3 +12,17 @@ C:\Users\sharifi\ASP.NET\teamProject1-store\teamProgect1-store\Project_OnlineSho
 C:\Users\sharifi\ASP.NET\teamProject1-store\teamProgect1-store\Project_OnlineShop\OnlineShop.Domain\obj\Debug\net7.0\OnlineShop.Domain.pdb
 C:\Users\sharifi\ASP.NET\teamProject1-store\teamProgect1-store\Project_OnlineShop\OnlineShop.Domain\obj\Debug\net7.0\OnlineShop.Domain.genruntimeconfig.cache
 C:\Users\sharifi\ASP.NET\teamProject1-store\teamProgect1-store\Project_OnlineShop\OnlineShop.Domain\obj\Debug\net7.0\ref\OnlineShop.Domain.dll
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Domain\bin\Debug\net7.0\OnlineShop.Domain.deps.json
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Domain\bin\Debug\net7.0\OnlineShop.Domain.runtimeconfig.json
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Domain\bin\Debug\net7.0\OnlineShop.Domain.dll
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Domain\bin\Debug\net7.0\OnlineShop.Domain.pdb
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Domain\obj\Debug\net7.0\OnlineShop.Domain.csproj.AssemblyReference.cache
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Domain\obj\Debug\net7.0\OnlineShop.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Domain\obj\Debug\net7.0\OnlineShop.Domain.AssemblyInfoInputs.cache
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Domain\obj\Debug\net7.0\OnlineShop.Domain.AssemblyInfo.cs
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Domain\obj\Debug\net7.0\OnlineShop.Domain.csproj.CoreCompileInputs.cache
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Domain\obj\Debug\net7.0\OnlineShop.Domain.dll
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Domain\obj\Debug\net7.0\refint\OnlineShop.Domain.dll
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Domain\obj\Debug\net7.0\OnlineShop.Domain.pdb
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Domain\obj\Debug\net7.0\OnlineShop.Domain.genruntimeconfig.cache
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Domain\obj\Debug\net7.0\ref\OnlineShop.Domain.dll

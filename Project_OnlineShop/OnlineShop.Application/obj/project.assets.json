@@ -3483,24 +3483,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sharifi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\A R T A\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sharifi\\ASP.NET\\teamProject1-store\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Application\\OnlineShop.Application.csproj",
+      "projectUniqueName": "C:\\Users\\A R T A\\OneDrive\\Desktop\\C# project\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Application\\OnlineShop.Application.csproj",
       "projectName": "OnlineShop.Application",
-      "projectPath": "C:\\Users\\sharifi\\ASP.NET\\teamProject1-store\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Application\\OnlineShop.Application.csproj",
-      "packagesPath": "C:\\Users\\sharifi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sharifi\\ASP.NET\\teamProject1-store\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Application\\obj\\",
+      "projectPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\C# project\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Application\\OnlineShop.Application.csproj",
+      "packagesPath": "C:\\Users\\A R T A\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\C# project\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Application\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\sharifi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\A R T A\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3508,15 +3503,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\sharifi\\ASP.NET\\teamProject1-store\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj": {
-              "projectPath": "C:\\Users\\sharifi\\ASP.NET\\teamProject1-store\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj"
+            "C:\\Users\\A R T A\\OneDrive\\Desktop\\C# project\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj": {
+              "projectPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\C# project\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj"
             }
           }
         }
@@ -3568,7 +3562,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
