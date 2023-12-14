@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Bugeto_Store.Domain.Entities.Users
+namespace OnlineShop.Domain.Entities.Users
 {
     public class Role
     {
