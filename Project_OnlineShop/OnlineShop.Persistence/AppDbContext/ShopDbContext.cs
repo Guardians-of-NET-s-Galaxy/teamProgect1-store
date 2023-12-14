@@ -1,5 +1,5 @@
-﻿using Bugeto_Store.Domain.Entities.Users;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using OnlineShop.Domain.Entities.Users;
 using System;
 using System.Collections.Generic;
 using System.Data;

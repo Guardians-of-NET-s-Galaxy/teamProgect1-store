@@ -1133,6 +1133,21 @@
           }
         }
       },
+      "OnlineShop.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
+          "OnlineShop.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OnlineShop.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnlineShop.Application.dll": {}
+        }
+      },
       "OnlineShop.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -3482,6 +3497,11 @@
         "version.txt"
       ]
     },
+    "OnlineShop.Application/1.0.0": {
+      "type": "project",
+      "path": "../OnlineShop.Application/OnlineShop.Application.csproj",
+      "msbuildProject": "../OnlineShop.Application/OnlineShop.Application.csproj"
+    },
     "OnlineShop.Domain/1.0.0": {
       "type": "project",
       "path": "../OnlineShop.Domain/OnlineShop.Domain.csproj",
@@ -3499,23 +3519,29 @@
       "Microsoft.EntityFrameworkCore.Design >= 7.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.0",
+      "OnlineShop.Application >= 1.0.0",
       "OnlineShop.Persistence >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\A R T A\\.nuget\\packages\\": {}
+    "C:\\Users\\sharifi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\A R T A\\OneDrive\\Desktop\\C# project\\teamProgect1-store\\Project_OnlineShop\\Project_OnlineShop\\Project_OnlineShop.csproj",
+      "projectUniqueName": "C:\\Users\\sharifi\\Desktop\\New folder (4)\\teamProgect1-store\\Project_OnlineShop\\Project_OnlineShop\\Project_OnlineShop.csproj",
       "projectName": "Project_OnlineShop",
-      "projectPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\C# project\\teamProgect1-store\\Project_OnlineShop\\Project_OnlineShop\\Project_OnlineShop.csproj",
-      "packagesPath": "C:\\Users\\A R T A\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\C# project\\teamProgect1-store\\Project_OnlineShop\\Project_OnlineShop\\obj\\",
+      "projectPath": "C:\\Users\\sharifi\\Desktop\\New folder (4)\\teamProgect1-store\\Project_OnlineShop\\Project_OnlineShop\\Project_OnlineShop.csproj",
+      "packagesPath": "C:\\Users\\sharifi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sharifi\\Desktop\\New folder (4)\\teamProgect1-store\\Project_OnlineShop\\Project_OnlineShop\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\A R T A\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sharifi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3523,14 +3549,19 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\A R T A\\OneDrive\\Desktop\\C# project\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Persistence\\OnlineShop.Persistence.csproj": {
-              "projectPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\C# project\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Persistence\\OnlineShop.Persistence.csproj"
+            "C:\\Users\\sharifi\\Desktop\\New folder (4)\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Application\\OnlineShop.Application.csproj": {
+              "projectPath": "C:\\Users\\sharifi\\Desktop\\New folder (4)\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Application\\OnlineShop.Application.csproj"
+            },
+            "C:\\Users\\sharifi\\Desktop\\New folder (4)\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Persistence\\OnlineShop.Persistence.csproj": {
+              "projectPath": "C:\\Users\\sharifi\\Desktop\\New folder (4)\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Persistence\\OnlineShop.Persistence.csproj"
             }
           }
         }
@@ -3585,7 +3616,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

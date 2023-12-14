@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OnlineShop.Domain.Entities.Users;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,10 @@ namespace OnlineShop.Domain.IRepositories
 {
     public interface IUserRepository
     {
+        bool ExistUserByMobile(string mobile);
+
+        void AddUser(User user);
+
+        void SaveChanges();
     }
 }

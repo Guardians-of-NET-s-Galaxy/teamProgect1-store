@@ -32,3 +32,20 @@ C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineSh
 C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Persistence\obj\Debug\net7.0\OnlineShop.Persistence.pdb
 C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Persistence\obj\Debug\net7.0\OnlineShop.Persistence.genruntimeconfig.cache
 C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Persistence\obj\Debug\net7.0\ref\OnlineShop.Persistence.dll
+C:\Users\sharifi\Desktop\New folder (4)\teamProgect1-store\Project_OnlineShop\OnlineShop.Persistence\bin\Debug\net7.0\OnlineShop.Persistence.deps.json
+C:\Users\sharifi\Desktop\New folder (4)\teamProgect1-store\Project_OnlineShop\OnlineShop.Persistence\bin\Debug\net7.0\OnlineShop.Persistence.runtimeconfig.json
+C:\Users\sharifi\Desktop\New folder (4)\teamProgect1-store\Project_OnlineShop\OnlineShop.Persistence\bin\Debug\net7.0\OnlineShop.Persistence.dll
+C:\Users\sharifi\Desktop\New folder (4)\teamProgect1-store\Project_OnlineShop\OnlineShop.Persistence\bin\Debug\net7.0\OnlineShop.Persistence.pdb
+C:\Users\sharifi\Desktop\New folder (4)\teamProgect1-store\Project_OnlineShop\OnlineShop.Persistence\bin\Debug\net7.0\OnlineShop.Domain.dll
+C:\Users\sharifi\Desktop\New folder (4)\teamProgect1-store\Project_OnlineShop\OnlineShop.Persistence\bin\Debug\net7.0\OnlineShop.Domain.pdb
+C:\Users\sharifi\Desktop\New folder (4)\teamProgect1-store\Project_OnlineShop\OnlineShop.Persistence\obj\Debug\net7.0\OnlineShop.Persistence.csproj.AssemblyReference.cache
+C:\Users\sharifi\Desktop\New folder (4)\teamProgect1-store\Project_OnlineShop\OnlineShop.Persistence\obj\Debug\net7.0\OnlineShop.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sharifi\Desktop\New folder (4)\teamProgect1-store\Project_OnlineShop\OnlineShop.Persistence\obj\Debug\net7.0\OnlineShop.Persistence.AssemblyInfoInputs.cache
+C:\Users\sharifi\Desktop\New folder (4)\teamProgect1-store\Project_OnlineShop\OnlineShop.Persistence\obj\Debug\net7.0\OnlineShop.Persistence.AssemblyInfo.cs
+C:\Users\sharifi\Desktop\New folder (4)\teamProgect1-store\Project_OnlineShop\OnlineShop.Persistence\obj\Debug\net7.0\OnlineShop.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\sharifi\Desktop\New folder (4)\teamProgect1-store\Project_OnlineShop\OnlineShop.Persistence\obj\Debug\net7.0\OnlineShop.Persistence.csproj.CopyComplete
+C:\Users\sharifi\Desktop\New folder (4)\teamProgect1-store\Project_OnlineShop\OnlineShop.Persistence\obj\Debug\net7.0\OnlineShop.Persistence.dll
+C:\Users\sharifi\Desktop\New folder (4)\teamProgect1-store\Project_OnlineShop\OnlineShop.Persistence\obj\Debug\net7.0\refint\OnlineShop.Persistence.dll
+C:\Users\sharifi\Desktop\New folder (4)\teamProgect1-store\Project_OnlineShop\OnlineShop.Persistence\obj\Debug\net7.0\OnlineShop.Persistence.pdb
+C:\Users\sharifi\Desktop\New folder (4)\teamProgect1-store\Project_OnlineShop\OnlineShop.Persistence\obj\Debug\net7.0\OnlineShop.Persistence.genruntimeconfig.cache
+C:\Users\sharifi\Desktop\New folder (4)\teamProgect1-store\Project_OnlineShop\OnlineShop.Persistence\obj\Debug\net7.0\ref\OnlineShop.Persistence.dll

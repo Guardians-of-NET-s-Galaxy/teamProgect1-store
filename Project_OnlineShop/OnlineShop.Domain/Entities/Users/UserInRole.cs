@@ -1,4 +1,4 @@
-﻿namespace Bugeto_Store.Domain.Entities.Users
+﻿namespace OnlineShop.Domain.Entities.Users
 {
     public class UserInRole
     {
