@@ -32,3 +32,20 @@ C:\Users\sharifi\Desktop\New folder (4)\teamProgect1-store\Project_OnlineShop\On
 C:\Users\sharifi\Desktop\New folder (4)\teamProgect1-store\Project_OnlineShop\OnlineShop.Application\obj\Debug\net7.0\OnlineShop.Application.pdb
 C:\Users\sharifi\Desktop\New folder (4)\teamProgect1-store\Project_OnlineShop\OnlineShop.Application\obj\Debug\net7.0\OnlineShop.Application.genruntimeconfig.cache
 C:\Users\sharifi\Desktop\New folder (4)\teamProgect1-store\Project_OnlineShop\OnlineShop.Application\obj\Debug\net7.0\ref\OnlineShop.Application.dll
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Application\bin\Debug\net7.0\OnlineShop.Application.deps.json
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Application\bin\Debug\net7.0\OnlineShop.Application.runtimeconfig.json
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Application\bin\Debug\net7.0\OnlineShop.Application.dll
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Application\bin\Debug\net7.0\OnlineShop.Application.pdb
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Application\bin\Debug\net7.0\OnlineShop.Domain.dll
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Application\bin\Debug\net7.0\OnlineShop.Domain.pdb
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Application\obj\Debug\net7.0\OnlineShop.Application.csproj.AssemblyReference.cache
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Application\obj\Debug\net7.0\OnlineShop.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Application\obj\Debug\net7.0\OnlineShop.Application.AssemblyInfoInputs.cache
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Application\obj\Debug\net7.0\OnlineShop.Application.AssemblyInfo.cs
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Application\obj\Debug\net7.0\OnlineShop.Application.csproj.CoreCompileInputs.cache
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Application\obj\Debug\net7.0\OnlineShop.Application.csproj.CopyComplete
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Application\obj\Debug\net7.0\OnlineShop.Application.dll
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Application\obj\Debug\net7.0\refint\OnlineShop.Application.dll
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Application\obj\Debug\net7.0\OnlineShop.Application.pdb
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Application\obj\Debug\net7.0\OnlineShop.Application.genruntimeconfig.cache
+C:\Users\A R T A\OneDrive\Desktop\C# project\teamProgect1-store\Project_OnlineShop\OnlineShop.Application\obj\Debug\net7.0\ref\OnlineShop.Application.dll

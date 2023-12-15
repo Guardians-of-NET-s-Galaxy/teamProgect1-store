@@ -1,5 +1,9 @@
 using Microsoft.EntityFrameworkCore;
+using OnlineShop.Application.Services.Implementations;
+using OnlineShop.Application.Services.Interfaces;
+using OnlineShop.Domain.IRepositories;
 using OnlineShop.Persistence.AppDbContext;
+using OnlineShop.Persistence.Repositories;
 
 namespace Project_OnlineShop
 {
@@ -16,6 +20,8 @@ namespace Project_OnlineShop
 
             builder.Services.AddDbContext<ShopDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("ShopDbContext")));
 
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddScoped<IUserService , UserService>();
 
             var app = builder.Build();
 

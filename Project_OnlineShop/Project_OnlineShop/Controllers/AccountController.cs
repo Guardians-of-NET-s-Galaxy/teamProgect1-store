@@ -17,10 +17,7 @@ namespace Project_OnlineShop.Controllers
             _userService = userService;
         }
         #endregion
-        public IActionResult Index()
-        {
-            return View();
-        }
+
 
         #region register
 
@@ -47,7 +44,12 @@ namespace Project_OnlineShop.Controllers
         #endregion
 
 
-        #region ligin
+        #region login
+
+        public IActionResult Login()
+        {
+            return View();
+        }
 
         #endregion
 
