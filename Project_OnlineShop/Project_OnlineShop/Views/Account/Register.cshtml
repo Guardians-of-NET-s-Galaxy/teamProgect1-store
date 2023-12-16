@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@model OnlineShop.Domain.DTOs.SiteSide.Account.UserRegisterDTO
+
+
+<!DOCTYPE html>
 <html lang="fa">
 
 <head>
@@ -26,14 +29,22 @@
                 <span class="account-head-line">ثبت نام در دیجی‌استور</span>
                 <div class="content-account">
                     <div class="massege-light">ثبت نام تنها با شماره تلفن همراه امکان پذیر است.</div>
-                    <form action="#" id="register">
-                        <label for="email-phone">شماره موبایل یا پست الکترونیک خود را وارد کنید</label>
-                        <input type="text" id="email-phone" class="input-email-account" placeholder="">
+                    <form id="register" asp-controller="Account" asp-action="Register">
+                        
+                        <label for="email-phone">شماره موبایل خود را وارد کنید</label>
+                        <input type="text" id="email-phone" class="input-email-account" placeholder="" asp-for="Mobile">
+
+                        <label for="email-phone">نام خود را وارد کنید</label>
+                        <input type="text" id="email-phone" class="input-email-account" placeholder="" asp-for="FullName">
+                        
                         <label for="password">رمز عبور</label>
-                        <input type="password" id="password" class="input-password" placeholder="">
+                        <input type="password" id="password" class="input-password" placeholder="" asp-for="Password">
+                       
+                        <label for="password">تکرار رمز عبور</label>
+                        <input type="password" id="password" class="input-password" placeholder="" asp-for="Repassword">
 
                         <div class="parent-btn">
-                            <button class="dk-btn dk-btn-info">
+                            <button class="dk-btn dk-btn-info" type="submit">
                                 ثبت نام به دیجی استور
                                 <i class="mdi mdi-account-plus-outline sign-in"></i>
                             </button>

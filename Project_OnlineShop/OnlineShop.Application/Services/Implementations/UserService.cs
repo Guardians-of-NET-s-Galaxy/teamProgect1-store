@@ -30,6 +30,7 @@ namespace OnlineShop.Application.Services.Implementations
             {
                 Mobile = userRegisterDTO.Mobile.Trim(),
                 Password = PasswordHelper.EncodePasswordMd5(userRegisterDTO.Password),
+                FullName = userRegisterDTO.FullName
                 //UserName = userRegisterDTO.UserName
             };
 
