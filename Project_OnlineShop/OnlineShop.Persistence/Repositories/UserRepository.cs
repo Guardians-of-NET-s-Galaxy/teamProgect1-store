@@ -21,7 +21,7 @@ namespace OnlineShop.Persistence.Repositories
 
         public bool ExistUserByMobile(string mobile)
         {
-            return _shopDbContext.Users.Any(p => p.Mobile == mobile);
+            return _shopDbContext.Users.Any(p => p.IsDeleted == false && p.Mobile == mobile);
         }
 
         public void AddUser(User user)
@@ -40,6 +40,11 @@ namespace OnlineShop.Persistence.Repositories
         {
             _shopDbContext.Users.Remove(user);
             SaveChanges();
+        }
+
+        public User ValidUserForLogin(UserLoginDTO userLoginDTO)
+        {
+            return _shopDbContext.Users.FirstOrDefault(p => p.Mobile == userLoginDTO.Mobile && p.Password == userLoginDTO.Password);
         }
 
         public void SaveChanges()

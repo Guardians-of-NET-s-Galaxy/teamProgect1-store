@@ -1,4 +1,5 @@
-﻿using OnlineShop.Domain.Entities.Users;
+﻿using OnlineShop.Domain.DTOs.SiteSide.Account;
+using OnlineShop.Domain.Entities.Users;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,8 @@ namespace OnlineShop.Domain.IRepositories
         bool ExistUserByMobile(string mobile);
 
         void AddUser(User user);
+
+        User ValidUserForLogin(UserLoginDTO userLoginDTO);
 
         void SaveChanges();
     }

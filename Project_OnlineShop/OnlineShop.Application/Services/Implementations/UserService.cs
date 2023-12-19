@@ -6,6 +6,8 @@ using OnlineShop.Domain.IRepositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
+using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -30,6 +32,7 @@ namespace OnlineShop.Application.Services.Implementations
             {
                 Mobile = userRegisterDTO.Mobile.Trim(),
                 Password = PasswordHelper.EncodePasswordMd5(userRegisterDTO.Password),
+                FullName = userRegisterDTO.FullName
                 //UserName = userRegisterDTO.UserName
             };
 
@@ -55,9 +58,34 @@ namespace OnlineShop.Application.Services.Implementations
 
                 // add user to database
                 AddUser(user);
+
                 return true;
         }
 
+        public User? LoginUser(UserLoginDTO userLoginDTO)
+        {
+            //user exists?
+            if(!ExistUserByMobile(userLoginDTO.Mobile))
+            {
+                return null;
+            }
+
+            var user = ValidUserForLogin(userLoginDTO);
+            return user;
+
+        }
+
+        public User ValidUserForLogin(UserLoginDTO userLoginDTO)
+        {
+            UserLoginDTO loginUser = new()
+            {
+                Mobile = userLoginDTO.Mobile.Trim(),
+                Password = PasswordHelper.EncodePasswordMd5(userLoginDTO.Password)
+            };
+
+            User user = _userRepository.ValidUserForLogin(loginUser);
+            return user;
+        }
 
     }
 }

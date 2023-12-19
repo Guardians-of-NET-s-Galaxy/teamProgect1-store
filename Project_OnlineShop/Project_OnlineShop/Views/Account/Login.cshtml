@@ -1,4 +1,5 @@
-﻿
+﻿@model OnlineShop.Domain.DTOs.SiteSide.Account.UserLoginDTO
+
 <!DOCTYPE html>
 <html lang="fa">
 
@@ -26,12 +27,16 @@
                 <a href="index.html" class="logo-account"><img src="/SiteSide/assets/images/logo-login.png" alt="logo"></a>
                 <span class="account-head-line">ورود به دیجی‌استور</span>
                 <div class="content-account">
-                    <form action="#" id="login">
-                        <label for="email-phone">شماره موبایل یا پست الکترونیک خود را وارد کنید</label>
-                        <input type="text" id="email-phone" class="input-email-account" placeholder="">
+                    <form id="login" asp-controller="Account" asp-action="Login">
+
+                        <label for="email-phone">شماره موبایل خود را وارد کنید</label>
+                        <input type="text" id="email-phone" class="input-email-account" placeholder="" asp-for="Mobile">
+
                         <a href="password-forget.html" class="account-link-password">رمز خود را فراموش کرده ام</a>
+
                         <label for="password">رمز عبور</label>
-                        <input type="password" id="password" class="input-password" placeholder="">
+                        <input type="password" id="password" class="input-password" placeholder="" asp-for="Password">
+
                         <div class="parent-btn">
                             <button class="dk-btn dk-btn-info">
                                 ورود به دیجی استور
