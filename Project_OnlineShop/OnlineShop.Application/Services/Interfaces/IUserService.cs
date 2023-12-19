@@ -16,5 +16,8 @@ namespace OnlineShop.Application.Services.Interfaces
         void AddUser(User user);
 
         bool RegisterUser(UserRegisterDTO userRegisterDTO);
+        User LoginUser(UserLoginDTO userLoginDTO);
+        User ValidUserForLogin(UserLoginDTO userLoginDTO);
+        
     }
 }
