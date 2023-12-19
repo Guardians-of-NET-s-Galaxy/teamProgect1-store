@@ -62,6 +62,7 @@ namespace Project_OnlineShop
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseAuthorization();
 
             app.MapControllerRoute(
                 name: "default",

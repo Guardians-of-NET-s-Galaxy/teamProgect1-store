@@ -88,6 +88,11 @@ namespace Project_OnlineShop.Controllers
 
         #region logout
 
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync();
+            return Redirect("/");
+        }
         #endregion
     }
 }
