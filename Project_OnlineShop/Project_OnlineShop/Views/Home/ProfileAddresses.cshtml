@@ -1,0 +1,235 @@
+﻿    <!--search-category------------------------->
+<div class="col-lg-3 col-md-4 col-xs-12">
+    <div class="sidebar-wrapper">
+        <div class="box-sidebar">
+            <div class="profile-box" style="border: none;">
+                <img src="/SiteSide/assets/images/profile/1.jpg" class="profile-box-img-banner" alt="profile">
+            </div>
+        </div>
+
+        <div class="box-sidebar">
+            <div class="profile-box">
+                <div class="profile-box-avator">
+                    <img src="/SiteSide/assets/images/svg/user-profile.svg" alt="profile">
+                </div>
+
+                <div class="profile-box-content">
+                    <span class="profile-box-nameuser">حسن شجاعی</span>
+                    <span class="profile-box-phone">*******0991</span>
+                </div>
+
+                <a href="#" class="profile-box-row-arrow">
+                    <div class="profile-box-title">کیف پول</div>
+                    <div class="profile-box-price">
+                        <div class="wallet-amount">0</div>
+                        <div class="profile-box-currency">تومان</div>
+                        <i class="fa fa-angle-left"></i>
+                    </div>
+                    <p class="profile-box-wallet-link">افزایش موجودی</p>
+                </a>
+
+                <a href="#" class="profile-box-row-arrow">
+                    <div class="profile-box-title">دیجی کلاب</div>
+                    <div class="profile-box-price">
+                        <div class="wallet-amount">0</div>
+                        <div class="profile-box-currency">امتیاز</div>
+                        <i class="fa fa-angle-left"></i>
+                    </div>
+                </a>
+            </div>
+            <ul class="profile-menu-items">
+                <li>
+                    <a href="profile.html" class="profile-menu-url">
+                        <span class="mdi mdi-account-outline"></span>پروفایل
+                    </a>
+                </li>
+                <li>
+                    <a href="profile-order.html" class="profile-menu-url">
+                        <span class="mdi mdi-basket"></span>همه سفارش ها
+                    </a>
+                </li>
+                <li>
+                    <a href="profile-order-return.html" class="profile-menu-url">
+                        <span class="mdi mdi-autorenew"></span>در خواست مرجوعی
+                    </a>
+                </li>
+                <li>
+                    <a href="profile-favorites.html" class="profile-menu-url">
+                        <span class="mdi mdi-heart-outline"></span>لیست
+                        علاقه مندی ها
+                    </a>
+                </li>
+                <li>
+                    <a href="profile-comments.html" class="profile-menu-url">
+                        <span class="mdi mdi-comment-multiple-outline"></span>نقد و نظرات
+                    </a>
+                </li>
+                <li>
+                    <a href="profile-addresses.html" class="profile-menu-url active-profile">
+                        <span class="mdi mdi-map-marker-outline"></span>آدرس
+                        ها
+                    </a>
+                </li>
+                <li><a href="#" class="profile-menu-url"><span class="mdi mdi-history"></span>بازدید های اخیر</a></li>
+                <li>
+                    <a href="profile-personal-info.html" class="profile-menu-url">
+                        <span class="mdi mdi-account-circle"></span>اطلاعات شخصی
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html" class="profile-menu-url">
+                        <span class="mdi mdi-power"></span>خروج
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+<div class="col-lg-9 col-md-8 col-xs-12 pull-right">
+    <div class="d-block">
+        <div class="profile-content">
+            <div class="headline-profile">
+                <span>آدرس من</span>
+            </div>
+            <div class="profile-stats">
+                <div class="profile-address">
+                    <div class="box-header">
+                        <span class="box-title">نشانی ما</span>
+                    </div>
+                    <div class="profile-address-item">
+                        <div class="profile-address-item-top">
+                            <div class="profile-address-item-title">خراسان شمالی ، بجنورد</div>
+                            <div class="ui-more">
+                                <button class="btn-remove-address btn btn-danger" type="submit">حذف</button>
+                            </div>
+                        </div>
+
+                        <div class="profile-address-content">
+                            <ul class="profile-address-info">
+                                <li>
+                                    <div class="profile-address-info-item location">
+                                        <i class="mdi mdi-map-outline"></i>
+                                        خراسان شمالی، بجنورد
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="profile-address-info-item location">
+                                        <i class="mdi mdi-email-outline"></i>
+                                        945789651235
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="profile-address-info-item location">
+                                        <i class="mdi mdi-phone"></i>
+                                        0991*******
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="profile-address-info-item location">
+                                        <i class="mdi mdi-account"></i>
+                                        خراسان شمالی، بجنورد
+                                    </div>
+                                </li>
+                                <li class="location-link">
+                                    <a href="#" class="edit-address-link"
+                                       onclick="document.getElementById('modal').style.display='block'">
+                                        ویرایش
+                                        نشانی
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--       modal----------------------->
+<div class="remodal-overlay" id="modal">
+    <div class="col-lg-8 col-md-8 col-xs-12 mx-auto">
+        <div class="remodal">
+            <a href="#" class="remodal-close close-profile-address"
+               onclick="document.getElementById('modal').style.display='none'"><i class="fa fa-close"></i></a>
+            <div class="middle-container">
+                <form action="#" class="form-checkout">
+                    <div class="form-checkout-headline">ویرایش آدرس</div>
+                    <div class="form-checkout-row">
+                        <label for="name">
+                            نام و نام خانوادگی تحویل گیرنده <span class="required-star"
+                                                                  style="color:red;">*</span>
+                        </label>
+                        <input type="text" id="name" class="input-name-checkout"
+                               placeholder="نام تحویل گیرنده را وارد نمایید">
+                        <label for="phone-number">
+                            شماره موبایل <span class="required-star"
+                                               style="color:red;">*</span>
+                        </label>
+                        <input type="text" id="phone-number" class="input-name-checkout" placeholder="09xxxxxxxxx"
+                               style="text-align:left;">
+                        <label for="fixed-number">
+                            شماره تلفن ثابت <span class="required-star"
+                                                  style="color:red;">*</span>
+                        </label>
+                        <input type="text" id="fixed-number" class="input-name-checkout" placeholder="021xxxxxx"
+                               style="text-align:left;">
+
+                        <div class="form-checkout-valid-row">
+                            <label for="province">
+                                استان <span class="required-star"
+                                            style="color:red;"></span>
+                            </label>
+                            <select name="province" id="province">
+                                <option value="date-desc" selected="selected">
+                                    شهر مورد نظر خود را انتخاب کنید
+                                </option>
+                                <option value="date-asc">تهران</option>
+                                <option value="rate">مشهد</option>
+                                <option value="views">اصفهان</option>
+                                <option value="comments">شیراز</option>
+                            </select>
+                        </div>
+
+                        <div class="form-checkout-valid-row">
+                            <label for="city">
+                                شهر
+                                <span class="required-star" style="color:red;">*</span>
+                            </label>
+                            <select name="city" id="city">
+                                <option value="date-desc" selected="selected">
+                                    شهر مورد نظر خود را انتخاب کنید
+                                </option>
+                                <option value="date-asc">آشخانه</option>
+                                <option value="rate">شیروان</option>
+                                <option value="views">اسفراین</option>
+                                <option value="comments">جاجرم</option>
+                            </select>
+                        </div>
+
+                        <label for="address">
+                            آدرس
+                            <span class="required-star" style="color:red;">*</span>
+                        </label>
+                        <input type="text" id="address" class="input-name-checkout"
+                               placeholder="آدرس خود را وارد نمایید" style="height:80px;">
+
+                        <div class="form-checkout-valid-row">
+                            <div class="parent-btn">
+                                <button class="dk-btn dk-btn-info">
+                                    ثبت آدرس
+                                    <i class="fa fa-check sign-in"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <a href="#" class="cancel-edit-address"
+                           onclick="document.getElementById('modal').style.display='none'">انصراف و بازگشت</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--search-category------------------------->

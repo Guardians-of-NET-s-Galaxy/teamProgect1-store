@@ -91,7 +91,7 @@ namespace Project_OnlineShop.Controllers
             return View();
         }
 
-        public IActionResult ProfileAdresses()
+        public IActionResult ProfileAddresses()
         {
             return View();
         }
