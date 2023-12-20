@@ -13,6 +13,11 @@ namespace OnlineShop.Domain.Entities.Products
         public string Name { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }
-        public Category? Category { get; set; }
+        
+        
+        //RelationShip
+        
+        public int CategoryId { get; set; }
+        public Category Category { get; set; }
     }
 }
