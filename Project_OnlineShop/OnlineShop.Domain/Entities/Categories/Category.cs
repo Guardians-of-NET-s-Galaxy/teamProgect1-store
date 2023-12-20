@@ -11,7 +11,10 @@ namespace OnlineShop.Domain.Entities.Categories
     {
         public long Id { get; set; }
         public string Name { get; set; }
-        public List<Product>? ListOfProduct { get; set;}
+        
+        //RelationShip
+        
+        public List<Product> Products { get; set; } = new List<Product>();
 
     }
 }
