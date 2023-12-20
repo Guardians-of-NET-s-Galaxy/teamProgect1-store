@@ -1,4 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using OnlineShop.Domain.Entities.Categories;
+using OnlineShop.Domain.Entities.Payments;
+using OnlineShop.Domain.Entities.Products;
 using OnlineShop.Domain.Entities.Users;
 using System;
 using System.Collections.Generic;
@@ -25,6 +28,10 @@ namespace OnlineShop.Persistence.AppDbContext
         public DbSet<User> Users { get; set; }
         //public DbSet<Role> Roles { get; set; }
         //public DbSet<UserInRole> UserInRoles { get; set; }
+
+        public DbSet<Category> categories { get; set; }
+        public DbSet<Product> products { get; set; }
+        public DbSet<Payment> payments { get; set; }
 
         #endregion
 
