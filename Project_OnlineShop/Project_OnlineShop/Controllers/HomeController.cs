@@ -18,6 +18,96 @@ namespace Project_OnlineShop.Controllers
             return View();
         }
 
+
+        #region shop pages
+
+        public IActionResult NotFound404()
+        {
+            return View();
+        }
+
+        public IActionResult AboutUs()
+        {
+            return View();
+        }
+
+        public IActionResult Cart()
+        {
+            return View();
+        }
+
+        public IActionResult CartEmpty()
+        {
+            return View();
+        }
+
+        public IActionResult ContactUs()
+        {
+            return View();
+        }
+
+        public IActionResult Faq1()
+        {
+            return View();
+        }
+
+        public IActionResult Faq2()
+        {
+            return View();
+        }
+
+        public IActionResult Faq3()
+        {
+            return View();
+        }
+
+        public IActionResult PasswordChange()
+        {
+            return View();
+        }
+
+        public IActionResult PasswordForget()
+        {
+            return View();
+        }
+
+        public IActionResult ProductComment()
+        {
+            return View();
+        }
+
+        public IActionResult ProductComparision()
+        {
+            return View();
+        }
+
+        public IActionResult Profile()
+        {
+            return View();
+        }
+
+        public IActionResult ProfileAdditionalInfo()
+        {
+            return View();
+        }
+
+        public IActionResult ProfileAddresses()
+        {
+            return View();
+        }
+
+        public IActionResult ProfileComments()
+        {
+            return View();
+        }
+
+        #endregion
+
+
+
+
+
+
         public IActionResult Privacy()
         {
             return View();
