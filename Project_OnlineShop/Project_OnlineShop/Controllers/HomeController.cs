@@ -116,6 +116,66 @@ namespace Project_OnlineShop.Controllers
             return View();
         }
 
+        public IActionResult ProfileOrderReturn()
+        {
+            return View();
+        }
+
+        public IActionResult ProfilePersonalInfo()
+        {
+            return View();
+        }
+
+        public IActionResult ProfileUserHistory()
+        {
+            return View();
+        }
+
+        public IActionResult Search()
+        {
+            return View();
+        }
+
+        public IActionResult Shopping()
+        {
+            return View();
+        }
+        
+        public IActionResult ShoppingComplateBuy()
+        {
+            return View();
+        }
+
+        public IActionResult ShoppingNoComplateBuy()
+        {
+            return View();
+        }
+
+        public IActionResult ShoppingPayment()
+        {
+            return View();
+        }
+
+        public IActionResult SingleNoProduct()
+        {
+            return View();
+        }
+
+        public IActionResult SingleProduct() 
+        {
+            return View();
+        }
+
+        public IActionResult VerifyPhoneNumber()
+        {
+            return View();
+        }
+
+        public IActionResult Welcome()
+        {
+            return View();
+        }
+
         #endregion
 
 
