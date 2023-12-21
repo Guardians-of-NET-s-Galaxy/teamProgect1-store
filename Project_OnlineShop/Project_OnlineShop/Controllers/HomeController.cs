@@ -101,6 +101,21 @@ namespace Project_OnlineShop.Controllers
             return View();
         }
 
+        public IActionResult ProfileFavorites()
+        {
+            return View();
+        }
+
+        public IActionResult ProfileOrder() 
+        { 
+            return View(); 
+        }
+
+        public IActionResult ProfileOrder2()
+        {
+            return View();
+        }
+
         #endregion
 
 
