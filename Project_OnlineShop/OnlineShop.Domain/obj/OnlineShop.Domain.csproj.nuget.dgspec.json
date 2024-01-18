@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj": {}
+    "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj": {
+    "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj",
         "projectName": "OnlineShop.Domain",
-        "projectPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj",
+        "projectPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj",
         "packagesPath": "C:\\Users\\A R T A\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\obj\\",
+        "outputPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\A R T A\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -3488,11 +3488,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Application\\OnlineShop.Application.csproj",
+      "projectUniqueName": "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Application\\OnlineShop.Application.csproj",
       "projectName": "OnlineShop.Application",
-      "projectPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Application\\OnlineShop.Application.csproj",
+      "projectPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Application\\OnlineShop.Application.csproj",
       "packagesPath": "C:\\Users\\A R T A\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Application\\obj\\",
+      "outputPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\A R T A\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3509,8 +3509,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj": {
-              "projectPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj"
+            "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj": {
+              "projectPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj"
             }
           }
         }

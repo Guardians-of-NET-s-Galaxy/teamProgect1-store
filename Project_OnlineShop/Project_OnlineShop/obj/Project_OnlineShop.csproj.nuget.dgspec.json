@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\Project_OnlineShop\\Project_OnlineShop.csproj": {}
+    "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\Project_OnlineShop\\Project_OnlineShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Application\\OnlineShop.Application.csproj": {
+    "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Application\\OnlineShop.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Application\\OnlineShop.Application.csproj",
+        "projectUniqueName": "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Application\\OnlineShop.Application.csproj",
         "projectName": "OnlineShop.Application",
-        "projectPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Application\\OnlineShop.Application.csproj",
+        "projectPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Application\\OnlineShop.Application.csproj",
         "packagesPath": "C:\\Users\\A R T A\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Application\\obj\\",
+        "outputPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\A R T A\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj": {
-                "projectPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj"
+              "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj": {
+                "projectPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj": {
+    "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj",
         "projectName": "OnlineShop.Domain",
-        "projectPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj",
+        "projectPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj",
         "packagesPath": "C:\\Users\\A R T A\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\obj\\",
+        "outputPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\A R T A\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -162,14 +162,14 @@
         }
       }
     },
-    "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Persistence\\OnlineShop.Persistence.csproj": {
+    "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Persistence\\OnlineShop.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Persistence\\OnlineShop.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Persistence\\OnlineShop.Persistence.csproj",
         "projectName": "OnlineShop.Persistence",
-        "projectPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Persistence\\OnlineShop.Persistence.csproj",
+        "projectPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Persistence\\OnlineShop.Persistence.csproj",
         "packagesPath": "C:\\Users\\A R T A\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Persistence\\obj\\",
+        "outputPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\A R T A\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -186,8 +186,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj": {
-                "projectPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj"
+              "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj": {
+                "projectPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj"
               }
             }
           }
@@ -243,14 +243,14 @@
         }
       }
     },
-    "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\Project_OnlineShop\\Project_OnlineShop.csproj": {
+    "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\Project_OnlineShop\\Project_OnlineShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\Project_OnlineShop\\Project_OnlineShop.csproj",
+        "projectUniqueName": "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\Project_OnlineShop\\Project_OnlineShop.csproj",
         "projectName": "Project_OnlineShop",
-        "projectPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\Project_OnlineShop\\Project_OnlineShop.csproj",
+        "projectPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\Project_OnlineShop\\Project_OnlineShop.csproj",
         "packagesPath": "C:\\Users\\A R T A\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\Project_OnlineShop\\obj\\",
+        "outputPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\Project_OnlineShop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\A R T A\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -267,11 +267,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Application\\OnlineShop.Application.csproj": {
-                "projectPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Application\\OnlineShop.Application.csproj"
+              "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Application\\OnlineShop.Application.csproj": {
+                "projectPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Application\\OnlineShop.Application.csproj"
               },
-              "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Persistence\\OnlineShop.Persistence.csproj": {
-                "projectPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Persistence\\OnlineShop.Persistence.csproj"
+              "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Persistence\\OnlineShop.Persistence.csproj": {
+                "projectPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Persistence\\OnlineShop.Persistence.csproj"
               }
             }
           }

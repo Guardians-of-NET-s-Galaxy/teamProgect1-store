@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JBl/8djbuBPR0hg702QeraoiWBpM/9xKlUNiZesHPlk3FjQPV0mUKw+5tvp/H7t/+L7V4MDzLCBsqJlHVUZ6SA==",
+  "dgSpecHash": "1ZX8HKhKWFoXVZhkE/oE0wF7Gpyjr5tf+LoKaJrWvrNG1NEBAGUo7iOaMm6WAWa7VFViYwLs/cjkkD5RGXHKNw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Persistence\\OnlineShop.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Persistence\\OnlineShop.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\A R T A\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\A R T A\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
