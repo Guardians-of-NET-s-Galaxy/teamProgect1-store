@@ -1,7 +1,19 @@
-﻿namespace OnlineShop.Domain.Entities.Cart;
+﻿using OnlineShop.Domain.Entities.BaseEntities;
+using OnlineShop.Domain.Entities.Products;
+using System.ComponentModel.Design;
 
-public class CartItem
+namespace OnlineShop.Domain.Entities.Cart;
+
+public class CartItem : BaseEntity
 {
-    public int ProductId { get; set; }
+    public long Id { get; set; }
+    public virtual Product Product { get; set; }
+    public long ProductId { get; set; }
+    public virtual Cart Cart { get; set; }
+    public long CartId { get; set; }
+
+
     public int Quantity { get; set; }
+    public decimal Price { get; set; }
+
 }

@@ -1,13 +1,17 @@
 ﻿using OnlineShop.Domain.Entities.Users;
+using OnlineShop.Domain.Entities.BaseEntities;
 
 namespace OnlineShop.Domain.Entities.Cart;
 
-public class Cart
+public class Cart : BaseEntity
 {
-    
-    // Relationship
-    public int UserId { get; set; }
-    public User User { get; set; }
+    public Guid BrowserId { get; set; }
+    public bool Finished { get; set; }
 
-    public List<CartItem> CartItems { get; set; } = new List<CartItem>();
+    // Relationship
+    public long? UserId { get; set; }
+    public User User { get; set; }
+    public ICollection<CartItem> CartItem { get; set; }
+
+    //public List<CartItem> cartItems { get; set; } = new List<CartItem>();
 }

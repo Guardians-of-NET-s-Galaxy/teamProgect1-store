@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using OnlineShop.Domain.Entities.Cart;
 using OnlineShop.Domain.Entities.Categories;
 using OnlineShop.Domain.Entities.Payments;
 using OnlineShop.Domain.Entities.Products;
@@ -18,7 +19,13 @@ namespace OnlineShop.Persistence.AppDbContext
 
         public ShopDbContext(DbContextOptions<ShopDbContext> options) : base(options)
         {
+           
+        }
 
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=ShopDb;Integrated Security=True;Trust Server Certificate=True");
+            base.OnConfiguring(optionsBuilder);
         }
 
         #endregion
@@ -32,6 +39,9 @@ namespace OnlineShop.Persistence.AppDbContext
         public DbSet<Category> categories { get; set; }
         public DbSet<Product> products { get; set; }
         public DbSet<Payment> payments { get; set; }
+        public DbSet<Cart> carts { get; set; }
+        public DbSet<CartItem> CartItems { get; set; }
+
 
         #endregion
 
