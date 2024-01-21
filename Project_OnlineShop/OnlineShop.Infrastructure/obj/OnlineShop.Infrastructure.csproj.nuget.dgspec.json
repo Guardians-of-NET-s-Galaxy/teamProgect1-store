@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj": {}
+    "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj": {
+    "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj",
         "projectName": "OnlineShop.Infrastructure",
-        "projectPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\A R T A\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\New folder\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\A R T A\\OneDrive\\Desktop\\Shop proj\\teamProgect1-store\\Project_OnlineShop\\OnlineShop.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\A R T A\\AppData\\Roaming\\NuGet\\NuGet.Config",
