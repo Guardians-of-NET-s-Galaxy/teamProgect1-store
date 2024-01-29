@@ -9,165 +9,165 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Project_OnlineShop
 build_property.RootNamespace = Project_OnlineShop
-build_property.ProjectDir = C:\Users\A R T A\OneDrive\Desktop\Shop proj\teamProgect1-store\Project_OnlineShop\Project_OnlineShop\
+build_property.ProjectDir = C:\Users\mardin it\Source\Repos\teamProgect1-store1\Project_OnlineShop\Project_OnlineShop\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\A R T A\OneDrive\Desktop\Shop proj\teamProgect1-store\Project_OnlineShop\Project_OnlineShop
+build_property.MSBuildProjectDirectory = C:\Users\mardin it\Source\Repos\teamProgect1-store1\Project_OnlineShop\Project_OnlineShop
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Account/Login.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Account/Register.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Cart/Index.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/AboutUs.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/AboutUs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/CartEmpty.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/CartEmpty.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJ0RW1wdHkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/ContactUs.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/ContactUs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0VXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/Faq1.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/Faq1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGYXExLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/Faq2.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/Faq2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGYXEyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/Faq3.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/Faq3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGYXEzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/Index.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/NotFound404.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/NotFound404.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOb3RGb3VuZDQwNC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/PasswordChange.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/PasswordChange.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXNzd29yZENoYW5nZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/PasswordForget.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/PasswordForget.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXNzd29yZEZvcmdldC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/ProductComment.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/ProductComment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0Q29tbWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/ProductComparision.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/ProductComparision.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0Q29tcGFyaXNpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/Profile.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/ProfileAdditionalInfo.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/ProfileAdditionalInfo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maWxlQWRkaXRpb25hbEluZm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/ProfileAddresses.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/ProfileAddresses.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maWxlQWRkcmVzc2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/ProfileComments.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/ProfileComments.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maWxlQ29tbWVudHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/ProfileFavorites.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/ProfileFavorites.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maWxlRmF2b3JpdGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/ProfileOrder.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/ProfileOrder.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maWxlT3JkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/ProfileOrder2.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/ProfileOrder2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maWxlT3JkZXIyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/ProfileOrderReturn.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/ProfileOrderReturn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maWxlT3JkZXJSZXR1cm4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/ProfilePersonalInfo.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/ProfilePersonalInfo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maWxlUGVyc29uYWxJbmZvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/ProfileUserHistory.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/ProfileUserHistory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maWxlVXNlckhpc3RvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/Search.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/Shopping.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/Shopping.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wcGluZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/ShoppingComplateBuy.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/ShoppingComplateBuy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wcGluZ0NvbXBsYXRlQnV5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/ShoppingNoComplateBuy.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/ShoppingNoComplateBuy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wcGluZ05vQ29tcGxhdGVCdXkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/ShoppingPayment.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/ShoppingPayment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wcGluZ1BheW1lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/SingleNoProduct.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/SingleNoProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaW5nbGVOb1Byb2R1Y3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/SingleProduct.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/SingleProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaW5nbGVQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/VerifyPhoneNumber.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/VerifyPhoneNumber.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZXJpZnlQaG9uZU51bWJlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Home/Welcome.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Home/Welcome.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxXZWxjb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Shared/Error.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/_ViewImports.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/_ViewStart.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A R T A/OneDrive/Desktop/Shop proj/teamProgect1-store/Project_OnlineShop/Project_OnlineShop/Views/Shared/_Layout.cshtml]
+[C:/Users/mardin it/Source/Repos/teamProgect1-store1/Project_OnlineShop/Project_OnlineShop/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-0cl801d30g
