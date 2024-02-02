@@ -1,7 +1,11 @@
-﻿namespace OnlineShop.Domain.Entities.Cart;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using OnlineShop.Domain.Entities.Base;
 
-public class CartItem
+namespace OnlineShop.Domain.Entities.Cart;
+
+public class CartItem : BaseEntity
 {
-    public int ProductId { get; set; }
+    [ForeignKey("Product")]
+    public long ProductId { get; set; }
     public int Quantity { get; set; }
 }

@@ -1,21 +1,26 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Project_OnlineShop.Models;
 using System.Diagnostics;
+using OnlineShop.Application.Services.Interfaces;
 
 namespace Project_OnlineShop.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IProductService _productService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger,IProductService productService)
         {
             _logger = logger;
+            _productService = productService;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var response = await _productService.GetAllProductAsync(1,10,"");
+            var products = response.Data;
+            return View(products);
         }
 
 
@@ -108,10 +113,10 @@ namespace Project_OnlineShop.Controllers
 
 
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
+        // public IActionResult Privacy()
+        // {
+        //     return View();
+        // }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

@@ -12,7 +12,7 @@ public class Order
     
     //RelationShip
     
-    public int UserId { get; set; }
+    public long UserId { get; set; }
     public User User { get; set; }
     
     

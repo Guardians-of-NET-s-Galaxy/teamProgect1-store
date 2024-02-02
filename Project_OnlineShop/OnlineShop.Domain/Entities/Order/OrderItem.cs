@@ -1,4 +1,5 @@
-﻿using OnlineShop.Domain.Entities.Products;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using OnlineShop.Domain.Entities.Products;
 
 namespace OnlineShop.Domain.Entities.Order;
 
@@ -11,6 +12,7 @@ public class OrderItem
     
     
     // Relationship
-    public int ProductId { get; set; }
+    [ForeignKey("Product")]
+    public long ProductId { get; set; }
     public Product Product { get; set; }
 }
