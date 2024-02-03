@@ -1,8 +1,10 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
+using OnlineShop.Application;
 using OnlineShop.Application.Services.Implementations;
 using OnlineShop.Application.Services.Interfaces;
 using OnlineShop.Domain.IRepositories;
+using OnlineShop.Persistence;
 using OnlineShop.Persistence.AppDbContext;
 using OnlineShop.Persistence.Repositories;
 
@@ -21,8 +23,8 @@ namespace Project_OnlineShop
 
             builder.Services.AddDbContext<ShopDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("ShopDbContext")));
 
-            builder.Services.AddScoped<IUserRepository, UserRepository>();
-            builder.Services.AddScoped<IUserService , UserService>();
+            builder.Services.AddRepositoryService();
+            builder.Services.AddUtilityService();
 
 
             #region Authentication
