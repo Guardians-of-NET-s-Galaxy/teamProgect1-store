@@ -28,7 +28,12 @@
                 <a href="index.html" class="logo-account"><img src="/SiteSide/assets/images/logo-login.png" alt="logo"></a>
                 <span class="account-head-line">ثبت نام در دیجی‌استور</span>
                 <div class="content-account">
-                    <div class="massege-light">ثبت نام تنها با شماره تلفن همراه امکان پذیر است.</div>
+                    <div class="massege-light">
+                        ثبت نام تنها با شماره تلفن همراه امکان پذیر است.
+                        <br />
+                        @TempData["ErrorMessage"]
+                    </div>
+                    
                     <form id="register" asp-controller="Account" asp-action="Register">
                         
                         <label for="email-phone">شماره موبایل خود را وارد کنید</label>
@@ -67,7 +72,7 @@
 
                 <div class="account-footer">
                     <span>قبلا در دیجی‌استور ثبت‌نام کرده‌اید؟</span>
-                    <a href="login.html" class="btn-link-register">وارد شویــد</a>
+                    <a href="@Url.Action("Login", "Account")" class="btn-link-register">وارد شویــد</a>
                 </div>
             </div>
         </div>

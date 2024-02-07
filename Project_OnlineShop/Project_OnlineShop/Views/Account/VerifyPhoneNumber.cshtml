@@ -1,0 +1,100 @@
+﻿@*@model List<int>*@
+
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png"
+          href="https://www.digikala.com/mag/wp-content/themes/digikalamag/assets/common/img/ms-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="144x144"
+          href="https://www.digikala.com/mag/wp-content/themes/digikalamag/assets/common/img/ms-icon-144x144.png">
+    <title>verify-phone-number</title>
+    <!--    font-->
+    <link rel="stylesheet" href="/SiteSide/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/SiteSide/assets/css/materialdesignicons.css">
+    <link rel="stylesheet" href="/SiteSide/assets/css/materialdesignicons.css.map">
+    <!--    font-->
+    <link rel="stylesheet" href="/SiteSide/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="/SiteSide/assets/css/style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div class="col-lg-4 col-md-6 col-xs-12 mx-auto">
+            <div class="account-box">
+                <a href="index.html" class="logo-account"><img src="/SiteSide/assets/images/logo-login.png" alt="logo"></a>
+                <div class="message-light">
+                    <div class="massege-light">
+                        برای شماره همراه @ViewData["mobileNumber"] کد تایید ارسال گردید
+                        <br>
+                        <a href="@Url.Action("PasswordForget", "Account")" class="form-edit-number">
+                            ویرایش شماره
+                        </a>
+                        <br><br>
+                        @TempData["ErrorMessage"]
+                    </div>
+                    <div class="form-account">
+                        <div class="form-account-title">کد تایید را وارد کنید</div>
+                        <div class="form-account-row">
+                            <form asp-action="VerifyPhoneNumber" asp-controller="Account">
+                            <div class="lines-number-input">
+
+                                @*@for(int i =0; i<4; i++)
+                                {
+                                        <input type="number" id="@i" class="line-number-account" maxlength="1" name="verifyCode[@i]" onkeyup="movetoNext(this, '@i+1')">
+                                }*@
+
+                                <input type="text" id="1" class="line-number-account" maxlength="1" name="verifyCode[0]" onkeyup="movetoNext(this, '2')">
+                                <input type="text" id="2" class="line-number-account" maxlength="1" name="verifyCode[1]" onkeyup="movetoNext(this, '3')">
+                                <input type="text" id="3" class="line-number-account" maxlength="1" name="verifyCode[2]" onkeyup="movetoNext(this, '4')">
+                                <input type="text" id="4" class="line-number-account" maxlength="1" name="verifyCode[3]" onkeyup="movetoNext(this, '5')">
+                                <input type="text" id="5" class="line-number-account" maxlength="1" name="verifyCode[4]">
+                            </div>
+                            <div class="parent-btn">
+                                <button class="dk-btn dk-btn-info">
+                                    بررسی کد تایید
+                                    <i class="fa fa-sign-in sign-in"></i>
+                                </button>
+                            </div>
+                            </form>
+                            
+                        </div>
+                    </div>
+
+                    
+                    <div class="form-account-row">
+                        دریافت مجدد کد تایید(
+                        <p id="countdown-verify-end">
+                            <span class="day">0</span>
+                            <span class="hour">0</span>
+                            <span>:2</span>
+                            <span>58</span>
+                        </p>
+                        )
+                    </div>
+                </div>
+                <div class="account-footer">
+                    <span>کاربر جدید هستید؟</span>
+                    <a href="@Url.Action("Register", "Account")" class="btn-link-register">ثبت‌نام در گلکسی گاردینز</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/SiteSide/assets/js/jquery-3.2.1.min.js"></script>
+    <script src="/SiteSide/assets/js/countdown.min.js"></script>
+    <script src="/SiteSide/assets/js/bootstrap.js"></script>
+    <script src="/SiteSide/assets/js/main.js"></script>
+    <script type="text/javascript">
+        function movetoNext(current, nextFieldID) {
+            if (current.value.length >= current.maxLength) {
+                document.getElementById(nextFieldID).focus();
+            }
+        }
+    </script>
+
+</body>
+
+</html>

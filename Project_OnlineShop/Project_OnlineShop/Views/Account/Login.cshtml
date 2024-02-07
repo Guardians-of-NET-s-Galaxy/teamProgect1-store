@@ -24,22 +24,29 @@
     <div id="main">
         <div class="col-lg-4 col-md-6 col-xs-12 mx-auto">
             <div class="account-box">
-                <a href="index.html" class="logo-account"><img src="/SiteSide/assets/images/logo-login.png" alt="logo"></a>
-                <span class="account-head-line">ورود به دیجی‌استور</span>
+                <a href="@Url.Action("Index", "Home")" class="logo-account"><img src="/SiteSide/assets/images/logo-login.png" alt="logo"></a>
+                <span class="account-head-line">ورود به گلکسی گاردینز</span>
                 <div class="content-account">
+
+                    <div class="massege-light">
+                        در صورتی که کاربر جدید هستید ثبت نام کنید.
+                        <br />
+                        @TempData["ErrorMessage"]
+                    </div>
+
                     <form id="login" asp-controller="Account" asp-action="Login">
 
                         <label for="email-phone">شماره موبایل خود را وارد کنید</label>
                         <input type="text" id="email-phone" class="input-email-account" placeholder="" asp-for="Mobile">
 
-                        <a href="password-forget.html" class="account-link-password">رمز خود را فراموش کرده ام</a>
+                        <a href="@Url.Action("PasswordForget", "Account")" class="account-link-password">رمز خود را فراموش کرده ام</a>
 
                         <label for="password">رمز عبور</label>
                         <input type="password" id="password" class="input-password" placeholder="" asp-for="Password">
 
                         <div class="parent-btn">
                             <button class="dk-btn dk-btn-info">
-                                ورود به دیجی استور
+                                ورود به گلکسی گاردینز
                                 <i class="fa fa-sign-in sign-in"></i>
                             </button>
                         </div>
@@ -54,7 +61,7 @@
                 </div>
                 <div class="account-footer">
                     <span>کاربر جدید هستید؟</span>
-                    <a href="register.html" class="btn-link-register">ثبت‌نام در دیجی‌استور</a>
+                    <a href="@Url.Action("Register", "Account")" class="btn-link-register">ثبت‌نام در گلکسی گاردینز</a>
                 </div>
             </div>
         </div>

@@ -10,6 +10,7 @@ using System.Net.Http;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace OnlineShop.Application.Services.Implementations
 {
@@ -87,5 +88,15 @@ namespace OnlineShop.Application.Services.Implementations
             return user;
         }
 
+        public bool CheckVerifyCode(int[] verifyCode)
+        {
+            int[] validVerifyCode = new int[] { 0, 0, 0, 0, 0 };
+            var result = verifyCode.SequenceEqual(validVerifyCode);
+            if (result == true)
+            {
+                return true;
+            }
+            else return false;
+        }
     }
 }

@@ -18,6 +18,6 @@ namespace OnlineShop.Application.Services.Interfaces
         bool RegisterUser(UserRegisterDTO userRegisterDTO);
         User LoginUser(UserLoginDTO userLoginDTO);
         User ValidUserForLogin(UserLoginDTO userLoginDTO);
-        
+        bool CheckVerifyCode(int[] verifyCode);
     }
 }

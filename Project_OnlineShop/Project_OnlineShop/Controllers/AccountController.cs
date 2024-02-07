@@ -79,7 +79,7 @@ namespace Project_OnlineShop.Controllers
                     return RedirectToAction("Index", "Home");
                 }
             }
-            TempData["ErrorMessage"] = "کاربری با این شماره در سیستم ثبت شده است. لطفا وارد شوید";
+            TempData["ErrorMessage"] = "کاربری با این شماره در سیستم ثبت نشده است و یا رمز عبور صحیح نیست.";
             return View();
             
         }
@@ -93,6 +93,66 @@ namespace Project_OnlineShop.Controllers
             await HttpContext.SignOutAsync();
             return Redirect("/");
         }
+        #endregion
+
+        #region password forget
+
+        public IActionResult PasswordForget()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult PasswordForget(string mobile)
+        {
+            var result = _userService.ExistUserByMobile(mobile);
+            if (result == true)
+            {
+                TempData["passwordForgetMobile"] = mobile; // for sending to VerifyPhoneNumber
+                return RedirectToAction("VerifyPhoneNumber", "Account");
+            }
+            TempData["ErrorMessage"] = "کاربری با این شماره در سیستم ثبت نشده است.";
+            return View();
+        }
+
+        #endregion
+
+
+        #region Verify Phone Number
+
+        public IActionResult VerifyPhoneNumber()
+        {
+            string mobile = TempData.Peek("passwordForgetMobile") as string; // get mobile from PasswordForget
+            ViewData["mobileNumber"] = mobile; // to send to view
+            return View("VerifyPhoneNumber");
+        }
+
+        [HttpPost]
+        public IActionResult VerifyPhoneNumber(int[] verifyCode)
+        {
+            var result = _userService.CheckVerifyCode(verifyCode);
+            if (result == true)
+            {
+                return RedirectToAction("PasswordForgetChange", "Account");
+            }
+            TempData["ErrorMessage"] = "کد تایید صحیح نیست.";
+            return View();
+        }
+
+        public IActionResult PasswordForgetChange()
+        {
+            string mobile = TempData["passwordForgetMobile"] as string; // get mobile from PasswordForget
+            return View(); 
+        }
+
+        //[HttpPost, ValidateAntiForgeryToken]
+        //public IActionResult PasswordForgetChange()
+        //{
+        //    string mobile = TempData["passwordForgetMobile"] as string; // get mobile from PasswordForget
+        //    return View();
+        //}
+
+
         #endregion
     }
 }

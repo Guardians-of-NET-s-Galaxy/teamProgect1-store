@@ -54,3 +54,17 @@ C:\Users\A R T A\OneDrive\Desktop\Shop proj\teamProgect1-store\Project_OnlineSho
 C:\Users\A R T A\OneDrive\Desktop\Shop proj\teamProgect1-store\Project_OnlineShop\OnlineShop.Infrastructure\obj\Debug\net7.0\OnlineShop.Infrastructure.pdb
 C:\Users\A R T A\OneDrive\Desktop\Shop proj\teamProgect1-store\Project_OnlineShop\OnlineShop.Infrastructure\obj\Debug\net7.0\OnlineShop.Infrastructure.genruntimeconfig.cache
 C:\Users\A R T A\OneDrive\Desktop\Shop proj\teamProgect1-store\Project_OnlineShop\OnlineShop.Infrastructure\obj\Debug\net7.0\ref\OnlineShop.Infrastructure.dll
+C:\Users\sharifi\Desktop\New folder\teamProgect1-store\Project_OnlineShop\OnlineShop.Infrastructure\bin\Debug\net7.0\OnlineShop.Infrastructure.deps.json
+C:\Users\sharifi\Desktop\New folder\teamProgect1-store\Project_OnlineShop\OnlineShop.Infrastructure\bin\Debug\net7.0\OnlineShop.Infrastructure.runtimeconfig.json
+C:\Users\sharifi\Desktop\New folder\teamProgect1-store\Project_OnlineShop\OnlineShop.Infrastructure\bin\Debug\net7.0\OnlineShop.Infrastructure.dll
+C:\Users\sharifi\Desktop\New folder\teamProgect1-store\Project_OnlineShop\OnlineShop.Infrastructure\bin\Debug\net7.0\OnlineShop.Infrastructure.pdb
+C:\Users\sharifi\Desktop\New folder\teamProgect1-store\Project_OnlineShop\OnlineShop.Infrastructure\obj\Debug\net7.0\OnlineShop.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\sharifi\Desktop\New folder\teamProgect1-store\Project_OnlineShop\OnlineShop.Infrastructure\obj\Debug\net7.0\OnlineShop.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sharifi\Desktop\New folder\teamProgect1-store\Project_OnlineShop\OnlineShop.Infrastructure\obj\Debug\net7.0\OnlineShop.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\sharifi\Desktop\New folder\teamProgect1-store\Project_OnlineShop\OnlineShop.Infrastructure\obj\Debug\net7.0\OnlineShop.Infrastructure.AssemblyInfo.cs
+C:\Users\sharifi\Desktop\New folder\teamProgect1-store\Project_OnlineShop\OnlineShop.Infrastructure\obj\Debug\net7.0\OnlineShop.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\sharifi\Desktop\New folder\teamProgect1-store\Project_OnlineShop\OnlineShop.Infrastructure\obj\Debug\net7.0\OnlineShop.Infrastructure.dll
+C:\Users\sharifi\Desktop\New folder\teamProgect1-store\Project_OnlineShop\OnlineShop.Infrastructure\obj\Debug\net7.0\refint\OnlineShop.Infrastructure.dll
+C:\Users\sharifi\Desktop\New folder\teamProgect1-store\Project_OnlineShop\OnlineShop.Infrastructure\obj\Debug\net7.0\OnlineShop.Infrastructure.pdb
+C:\Users\sharifi\Desktop\New folder\teamProgect1-store\Project_OnlineShop\OnlineShop.Infrastructure\obj\Debug\net7.0\OnlineShop.Infrastructure.genruntimeconfig.cache
+C:\Users\sharifi\Desktop\New folder\teamProgect1-store\Project_OnlineShop\OnlineShop.Infrastructure\obj\Debug\net7.0\ref\OnlineShop.Infrastructure.dll
