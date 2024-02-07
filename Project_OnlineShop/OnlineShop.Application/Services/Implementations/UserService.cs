@@ -10,7 +10,9 @@ using System.Net.Http;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using XAct.Users;
 using static System.Runtime.InteropServices.JavaScript.JSType;
+using User = OnlineShop.Domain.Entities.Users.User;
 
 namespace OnlineShop.Application.Services.Implementations
 {
@@ -97,6 +99,19 @@ namespace OnlineShop.Application.Services.Implementations
                 return true;
             }
             else return false;
+        }
+
+        public User UserChangePasswordDTOToUserEntity(UserChangePasswordDTO userChangePasswordDTO)
+        {
+            var user = _userRepository.FindUserToChangePassword(userChangePasswordDTO.Mobile);
+            return user;
+        }
+
+        public void ChangePassword(UserChangePasswordDTO userChangePasswordDTO)
+        {
+            var updatedUser = UserChangePasswordDTOToUserEntity(userChangePasswordDTO);
+            updatedUser.Password = PasswordHelper.EncodePasswordMd5(userChangePasswordDTO.Password);
+            _userRepository.EditUser(updatedUser);
         }
     }
 }

@@ -19,5 +19,6 @@ namespace OnlineShop.Application.Services.Interfaces
         User LoginUser(UserLoginDTO userLoginDTO);
         User ValidUserForLogin(UserLoginDTO userLoginDTO);
         bool CheckVerifyCode(int[] verifyCode);
+        void ChangePassword(UserChangePasswordDTO userChangePasswordDTO);
     }
 }

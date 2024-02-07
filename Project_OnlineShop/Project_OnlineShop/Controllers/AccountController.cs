@@ -141,16 +141,20 @@ namespace Project_OnlineShop.Controllers
 
         public IActionResult PasswordForgetChange()
         {
-            string mobile = TempData["passwordForgetMobile"] as string; // get mobile from PasswordForget
             return View(); 
         }
 
-        //[HttpPost, ValidateAntiForgeryToken]
-        //public IActionResult PasswordForgetChange()
-        //{
-        //    string mobile = TempData["passwordForgetMobile"] as string; // get mobile from PasswordForget
-        //    return View();
-        //}
+        [HttpPost, ValidateAntiForgeryToken]
+        public IActionResult PasswordForgetChange(UserChangePasswordDTO userChangePasswordDTO)
+        {
+            if (ModelState.IsValid)
+            {
+                _userService.ChangePassword(userChangePasswordDTO);
+                return RedirectToAction("Index", "Home");
+            }
+            TempData["ErrorMessage"] = "رمز عبور و تکرار آن یکسان نیستند.";
+            return View();
+        }
 
 
         #endregion

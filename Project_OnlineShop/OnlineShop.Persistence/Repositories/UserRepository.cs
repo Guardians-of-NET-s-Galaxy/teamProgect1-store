@@ -51,5 +51,15 @@ namespace OnlineShop.Persistence.Repositories
         {
             _shopDbContext.SaveChanges();
         }
+
+        public User FindUserByMobile(UserLoginDTO userLoginDTO)
+        {
+            return _shopDbContext.Users.FirstOrDefault(p => p.Mobile == userLoginDTO.Mobile && p.Password == userLoginDTO.Password);
+        }
+
+        public User FindUserToChangePassword(string mobile)
+        {
+            return _shopDbContext.Users.FirstOrDefault(p => p.Mobile == mobile);
+        }
     }
 }

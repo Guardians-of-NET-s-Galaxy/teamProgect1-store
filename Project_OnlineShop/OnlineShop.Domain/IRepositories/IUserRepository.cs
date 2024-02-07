@@ -14,8 +14,11 @@ namespace OnlineShop.Domain.IRepositories
 
         void AddUser(User user);
 
+        void EditUser(User user);
+
         User ValidUserForLogin(UserLoginDTO userLoginDTO);
 
         void SaveChanges();
+        User FindUserToChangePassword(string mobile);
     }
 }
